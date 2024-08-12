@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.7) url(image.jpg) ;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container h1{
+    color: orangered;
+    margin-left:10px ;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px;
+    transition: 2.5s;
+}
+
+
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px orangered inset, 0 3px 50px orangered inset, 0 3px 50px orangered inset, 0 3px 50px orangered inset;
+}
+
+.content{
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 30%;
+    
+}
+
+.content h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 25%;
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+.content p{
+    text-align: auto;
+    margin-top: auto;
+    margin-left:20%;
+    
+}
+.Search{
+    position: absolute;
+    margin-top:25%;
+    margin-left: 41%;
+}
+.Search input{
+    outline: none;
+    border: none;
+    padding: 12px 40px;
+    size: 1em;
+    width: 100%;
+}
+
+.Submit{
+    position: absolute;
+    margin-top: 31%;
+    margin-left: 50%;
+    
+}
+
+.Submit a{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 25px;
+    background-color: orangered;
+    
+}
+
+
+
+
